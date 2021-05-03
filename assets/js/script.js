@@ -1,5 +1,3 @@
-//wrapper
-//all javascript should be wrapped in here for jquery
 $(document).ready(function () {
 
 	function init() {
@@ -31,7 +29,6 @@ $(document).ready(function () {
 		showSaved();
 		let task = $(this).siblings('.description').val();
 		let time = $(this).parent().attr('id');
-		//get stuff user put in textarea
 		localStorage.setItem(time, task);
 	}
 
@@ -55,23 +52,8 @@ $(document).ready(function () {
 		});
 
 	}
-	//loop over each row of the class (time-block)
-	//find row time using data attribute (9 - 21) (if 21 is the current hour, check if it's less than, equal to, or greater than)
-	//add the past class to $(this).addClass('past')
 
-
-
-	//2
-	//color rows based on real time with a timer / set interval
-
-	//3
-	//load data from local storage and put it in the correct row
-	//#nine textarea to value of local storage key number "nine"
-
-
-	//user clicks save button
 	$('.saveBtn').on('click', saveTask);
-
 	init();
 })
 
