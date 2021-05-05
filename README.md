@@ -20,4 +20,4 @@ View my project as it is deployed via GitHub: https://vmichalecki.github.io/sche
 
 Clone my repo: https://github.com/vmichalecki/timed-quiz
 
-![scheduler screenshot](./assets/images.scheduler.screenshot)
+![scheduler screenshot](./assets/images.scheduler.screenshot.png)
