@@ -18,6 +18,6 @@ Click inside a timeblock to enter events and appointment information and click t
 
 View my project as it is deployed via GitHub: https://vmichalecki.github.io/scheduler/
 
-Clone my repo: https://github.com/vmichalecki/timed-quiz
+Clone my repo: https://github.com/vmichalecki/scheduler
 
 ![scheduler screenshot](./assets/images/scheduler-screenshot.png)
